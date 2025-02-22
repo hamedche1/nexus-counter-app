@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { BrowserProvider, JsonRpcSigner, Contract } from 'ethers'
 
-const CONTRACT_ADDRESS = '0x6DDc7dd77CbeeA3445b70CB04E0244BBa245e011'
+const CONTRACT_ADDRESS = '0x6e9ee161c2c1e92034a83b7af92318ff600868d2'
 const CONTRACT_ABI = [
   "function increment() public",
   "function getCount() public view returns (uint256)"
